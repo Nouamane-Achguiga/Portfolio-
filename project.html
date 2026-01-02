@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Graphique - Nouamane ACHGUIGA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project.css">
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+        <div class="container-fluid container-xl">
+            <a class="navbar-brand text-white" href="index.html">
+                <div class="d-flex align-items-center">
+                    <div class="logo-box">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <span>Nouamane ACHGUIGA</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#expertise">Compétences</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
+                            Projets
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html#projects">Développement</a></li>
+                            <li><a class="dropdown-item active" href="web-design-projects.html">Design Graphique</a></li>
+                            <li><a class="dropdown-item" href="ai-projects.html">IA & Machine Learning</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#experience">Expérience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#education">Formation</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-primary book-call-btn" href="index.html#contact">Me contacter</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="design-hero-section">
+        <div class="container-xl py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="display-3 fw-bold hero-title mb-4">
+                        <span class="text-gradient">Design Graphique</span> & Créativité Visuelle
+                    </h1>
+                    <p class="lead hero-subtitle mb-4">
+                        Découvrez mes créations graphiques : logos, affiches, dépliants et identités visuelles réalisés avec créativité et expertise technique.
+                    </p>
+                    <div class="hero-stats d-flex gap-4 mb-4">
+                        <div class="stat-item">
+                            <div class="stat-number">12+</div>
+                            <div class="stat-label">Projets design</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">6+</div>
+                            <div class="stat-label">Logos créés</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Adobe Creative Suite</div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="design-hero-image">
+                        <img src="source/affiche.jpeg" alt="Affiche Design" class="img-fluid rounded shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio-section">
+        <div class="container-xl py-5">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="display-4 fw-bold section-title mb-3">Mes Projets Design</h2>
+                    <p class="lead mx-auto" style="max-width: 700px;">
+                        Une sélection de mes créations graphiques, de l'identité visuelle aux supports de communication.
+                    </p>
+                </div>
+            </div>
+                        <div class="row mb-5">
+                <div class="col-12">
+                    <div class="filter-buttons text-center">
+                        <button class="filter-btn active" data-filter="*">Tous les projets</button>
+                        <button class="filter-btn" data-filter=".logos">Logos</button>
+                        <button class="filter-btn" data-filter=".affiches">Affiches</button>
+                        <button class="filter-btn" data-filter=".depliants">Dépliants</button>
+                        <button class="filter-btn" data-filter=".designs">Designs Divers</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row portfolio-grid">
+                <div class="col-lg-4 col-md-6 portfolio-item logos">
+                    <div class="design-card">
+                        <div class="design-image">
+                            <img src="source/logo 1.jpeg" alt="Logo 1 - Design" class="img-fluid">
+                            <div class="design-overlay">
+                                <a href="source/logo 1.jpeg" data-lightbox="logos" data-title="Logo Design 1" class="view-btn">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <h4 class="design-title">Logo PURE COSMETICS</h4>
+                            <p class="design-category">Logo • Identité Visuelle</p>
+                            <div class="design-tools">
+                                <span class="tool-tag">Illustrator</span>
+                                <span class="tool-tag">Photoshop</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 portfolio-item logos">
+                    <div class="design-card">
+                        <div class="design-image">
+                            <img src="source/logo 2.jpeg" alt="Logo 2 - Design" class="img-fluid">
+                            <div class="design-overlay">
+                                <a href="source/logo 2.jpeg" data-lightbox="logos" data-title="Logo Design 2" class="view-btn">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <h4 class="design-title">Logo NAGATA</h4>
+                            <p class="design-category">Logo • Branding</p>
+                            <div class="design-tools">
+                                <span class="tool-tag">Illustrator</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item affiches">
+                    <div class="design-card">
+                        <div class="design-image">
+                            <img src="source/affiche.jpeg" alt="Affiche Design" class="img-fluid">
+                            <div class="design-overlay">
+                                <a href="source/affiche.jpeg" data-lightbox="affiches" data-title="Affiche Événementielle" class="view-btn">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <h4 class="design-title">Affiche</h4>
+                            <p class="design-category">Affiche • Communication</p>
+                            <div class="design-tools">
+                                <span class="tool-tag">Photoshop</span>
+                                <span class="tool-tag">Illustrator</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 portfolio-item affiches">
+                    <div class="design-card">
+                        <div class="design-image">
+                            <img src="source/ocs2.png" alt="Affiche OCS2" class="img-fluid">
+                            <div class="design-overlay">
+                                <a href="source/ocs2.png" data-lightbox="affiches" data-title="Affiche OCS2" class="view-btn">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <h4 class="design-title">Poster match basketball</h4>
+                            <p class="design-category">Affiche • Institutionnelle</p>
+                            <div class="design-tools">
+                                <span class="tool-tag">InDesign</span>
+                                <span class="tool-tag">Photoshop</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 portfolio-item depliants">
+                    <div class="design-card">
+                        <div class="design-image">
+                            <img src="source/deplian-01.jpg" alt="Dépliant 01" class="img-fluid">
+                            <div class="design-overlay">
+                                <a href="source/deplian-01.jpg" data-lightbox="depliants" data-title="Dépliant 01" class="view-btn">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <h4 class="design-title">Dépliant SOFITEL RECTO</h4>
+                            <p class="design-category">Dépliant • Print</p>
+                            <div class="design-tools">
+                                <span class="tool-tag">InDesign</span>
+                                <span class="tool-tag">Illustrator</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 portfolio-item depliants">
+                    <div class="design-card">
+                        <div class="design-image">
+                            <img src="source/deplian-02.jpg" alt="Dépliant 02" class="img-fluid">
+                            <div class="design-overlay">
+                                <a href="source/deplian-02.jpg" data-lightbox="depliants" data-title="Dépliant 02" class="view-btn">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <h4 class="design-title">Dépliant SOFITEL VERSO</h4>
+                            <p class="design-category">Dépliant • Commercial</p>
+                            <div class="design-tools">
+                                <span class="tool-tag">InDesign</span>
+                                <span class="tool-tag">Photoshop</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 portfolio-item designs">
+                    <div class="design-card">
+                        <div class="design-image">
+                            <img src="source/maruja.png" alt="Design Maruja" class="img-fluid">
+                            <div class="design-overlay">
+                                <a href="source/maruja.png" data-lightbox="designs" data-title="Design Maruja" class="view-btn">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <h4 class="design-title">Poster match basketball</h4>
+                            <p class="design-category">Design • Illustration</p>
+                            <div class="design-tools">
+                                <span class="tool-tag">Photoshop</span>
+                                <span class="tool-tag">Illustrator</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 portfolio-item designs">
+                    <div class="design-card">
+                        <div class="design-image">
+                            <img src="source/OSCCAS.png" alt="Design OSCCAS" class="img-fluid">
+                            <div class="design-overlay">
+                                <a href="source/OSCCAS.png" data-lightbox="designs" data-title="Design OSCCAS" class="view-btn">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <h4 class="design-title">Poster match basketball</h4>
+                            <p class="design-category">Design • Institutionnel</p>
+                            <div class="design-tools">
+                                <span class="tool-tag">Illustrator</span>
+                                <span class="tool-tag">InDesign</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 portfolio-item designs">
+                    <div class="design-card">
+                        <div class="design-image">
+                            <img src="source/ayoyb31.png" alt="Design Ayoyb31" class="img-fluid">
+                            <div class="design-overlay">
+                                <a href="source/ayoyb31.png" data-lightbox="designs" data-title="Design Ayoyb31" class="view-btn">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <h4 class="design-title">Poster match basketball</h4>
+                            <p class="design-category">Design • Créatif</p>
+                            <div class="design-tools">
+                                <span class="tool-tag">Photoshop</span>
+                                <span class="tool-tag">After Effects</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6 portfolio-item designs">
+                    <div class="design-card">
+                        <div class="design-image">
+                            <img src="source\new poster competition.png" alt="Design Ayoyb31" class="img-fluid">
+                            <div class="design-overlay">
+                                <a href="source\new poster competition.png" data-lightbox="designs" data-title="Design Ayoyb31" class="view-btn">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <h4 class="design-title">Design atelier SUPTECH</h4>
+                            <p class="design-category">Design • Créatif</p>
+                            <div class="design-tools">
+                                <span class="tool-tag">Photoshop</span>
+                                <span class="tool-tag">After Effects</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6 portfolio-item designs">
+                    <div class="design-card">
+                        <div class="design-image">
+                            <img src="source\POSTER.png" alt="Design Ayoyb31" class="img-fluid">
+                            <div class="design-overlay">
+                                <a href="source\POSTER.png" data-lightbox="designs" data-title="Design Ayoyb31" class="view-btn">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <h4 class="design-title">Poster atelier SUPTECH</h4>
+                            <p class="design-category">Design • Créatif</p>
+                            <div class="design-tools">
+                                <span class="tool-tag">Photoshop</span>
+                                <span class="tool-tag">After Effects</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 portfolio-item designs">
+                    <div class="design-card">
+                        <div class="design-image">
+                            <img src="source/Sans titre - 2.png" alt="Design Sans Titre 2" class="img-fluid">
+                            <div class="design-overlay">
+                                <a href="source/Sans titre - 2.png" data-lightbox="designs" data-title="Design Sans Titre 2" class="view-btn">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <h4 class="design-title">vinil skala</h4>
+                            <p class="design-category">Design • Concept</p>
+                            <div class="design-tools">
+                                <span class="tool-tag">Illustrator</span>
+                                <span class="tool-tag">Photoshop</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 portfolio-item designs">
+                    <div class="design-card">
+                        <div class="design-image">
+                            <img src="source/Sans titre-1.png" alt="Design Sans Titre 1" class="img-fluid">
+                            <div class="design-overlay">
+                                <a href="source/Sans titre-1.png" data-lightbox="designs" data-title="Design Sans Titre 1" class="view-btn">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <h4 class="design-title">Poster match basketball</h4>
+                            <p class="design-category">Design • Abstrait</p>
+                            <div class="design-tools">
+                                <span class="tool-tag">Photoshop</span>
+                                <span class="tool-tag">Blender</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 portfolio-item designs">
+                    <div class="design-card">
+                        <div class="design-image">
+                            <img src="source/3.jpg" alt="Design 3" class="img-fluid">
+                            <div class="design-overlay">
+                                <a href="source/3.jpg" data-lightbox="designs" data-title="Design 3" class="view-btn">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <h4 class="design-title">Design Numérique 3</h4>
+                            <p class="design-category">Design • Digital</p>
+                            <div class="design-tools">
+                                <span class="tool-tag">Figma</span>
+                                <span class="tool-tag">Adobe XD</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="index.html#projects" class="btn btn-primary btn-lg">
+                    <i class="fas fa-arrow-left me-2"></i>Retour au Portfolio Développement
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="process-section">
+        <div class="container-xl py-5">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="display-4 fw-bold section-title mb-3">Processus de Création</h2>
+                    <p class="lead mx-auto" style="max-width: 700px;">
+                        Chaque projet suit un processus méthodique pour garantir qualité et pertinence.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row process-steps">
+                <div class="col-lg-3 col-md-6 process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h4 class="step-title">Conception</h4>
+                    <p class="step-description">
+                        Recherche, brainstorming et développement des concepts créatifs.
+                    </p>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">
+                        <i class="fas fa-pencil-alt"></i>
+                    </div>
+                    <h4 class="step-title">Esquisses</h4>
+                    <p class="step-description">
+                        Création de plusieurs variantes et sélection des meilleures options.
+                    </p>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h4 class="step-title">Réalisation</h4>
+                    <p class="step-description">
+                        Production numérique avec les outils professionnels Adobe.
+                    </p>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h4 class="step-title">Finalisation</h4>
+                    <p class="step-description">
+                        Révisions, ajustements et livraison des fichiers optimisés.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tools-section">
+        <div class="container-xl py-5">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="display-4 fw-bold section-title mb-3">Outils Maîtrisés</h2>
+                    <p class="lead mx-auto" style="max-width: 700px;">
+                        Expertise complète de la suite Adobe Creative Cloud et autres outils de design.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row tools-grid justify-content-center">
+                <div class="col-lg-2 col-md-3 col-4 tool-item">
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <div class="tool-name">Illustrator</div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-3 col-4 tool-item">
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <div class="tool-name">Photoshop</div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-3 col-4 tool-item">
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="tool-name">InDesign</div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-3 col-4 tool-item">
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fab fa-figma"></i>
+                        </div>
+                        <div class="tool-name">Figma</div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-3 col-4 tool-item">
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="tool-name">Premiere Pro</div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-3 col-4 tool-item">
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <div class="tool-name">After Effects</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="design-cta-section">
+        <div class="container-xl py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="display-4 fw-bold mb-4">Un projet design en tête ?</h2>
+                    <p class="lead mb-5">
+                        Logo, affiche, dépliant ou identité visuelle complète, je crée le design qui représente parfaitement votre vision.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="index.html#contact" class="btn btn-primary btn-lg me-3">
+                            <i class="fas fa-envelope me-2"></i>Discuter de mon projet
+                        </a>
+                        <a href="index.html" class="btn btn-outline-primary btn-lg">
+                            <i class="fas fa-home me-2"></i>Retour à l'accueil
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container-xl py-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="copyright-text mb-0">&copy; 2025 Nouamane ACHGUIGA. Tous droits réservés.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        const navbar = document.getElementById('mainNavbar');
+        const scrollPoint = 50; 
+
+        function toggleNavbarClass() {
+            if (window.scrollY >= scrollPoint) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        }
+        toggleNavbarClass();
+                window.addEventListener('scroll', toggleNavbarClass);
+    });
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true,
+            'albumLabel': "Image %1 sur %2"
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            const grid = document.querySelector('.portfolio-grid');
+            if (grid) {
+                const iso = new Isotope(grid, {
+                    itemSelector: '.portfolio-item',
+                    layoutMode: 'fitRows',
+                    fitRows: {
+                        gutter: 30
+                    }
+                });
+                const filterButtons = document.querySelectorAll('.filter-btn');
+                filterButtons.forEach(button => {
+                    button.addEventListener('click', function() {
+                        filterButtons.forEach(btn => btn.classList.remove('active'));
+                        this.classList.add('active');
+                        
+                        const filterValue = this.getAttribute('data-filter');
+                        iso.arrange({ filter: filterValue });
+                    });
+                });
+            }
+            const navbar = document.getElementById('mainNavbar');
+            function toggleNavbarClass() {
+                if (window.scrollY >= 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            }
+            toggleNavbarClass();
+            window.addEventListener('scroll', toggleNavbarClass);
+        });
+    </script>
+</body>
+</html>
